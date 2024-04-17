@@ -292,7 +292,7 @@ namespace base {
 			}
 		}
 		lst->remove(k);
-		*g--;
+		(*g)--;
 		wrt(lst, g);
 	}
 
